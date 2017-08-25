@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func rollPressed(_ sender: AnyObject) {
+        print(self.view.frame.width)
         
         updateDiceImages()
     }
